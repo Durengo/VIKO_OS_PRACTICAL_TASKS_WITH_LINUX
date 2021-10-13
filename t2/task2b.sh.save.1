@@ -1,0 +1,16 @@
+#!bin/bash
+echo "Please choose a TXT file for this script to load, then you will be prompted to choose which line to read"
+echo "Enter directory where file is located (Enter 0 to choose this file): "
+read destination
+if [ $destination != 0 ]; then
+cd /
+cd $destination
+echo "You have loaded: "$destination
+ls $destination
+echo "Please select a file to read: "
+read file
+elif [ $destination = 0 ]; then
+echo "This text file is loaded."
+$file = task2b.sh
+fi
+echo "Which line do you want to selecread line

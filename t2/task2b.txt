@@ -1,0 +1,20 @@
+\#!bin/bash
+echo "Please choose a TXT file for this script to load. Later you can print certain lines or delete them."
+echo "Enter the directory where the file is located (Enter 0 to choose this file): "
+read destination
+if [ $destination != 0 ]; then
+cd /
+cd $destination
+echo "You have loaded: "$destination
+ls $destination
+echo "Please select a file to read: "
+read file
+sed '' $file
+elif [ $destination = 0 ]; then
+file="task2b.sh"
+echo "This text file is loaded."
+fi
+cat -n $file
+echo "Do you want to (p)rint a line or (r)emove a line?"
+cat task2b.txt
+fi

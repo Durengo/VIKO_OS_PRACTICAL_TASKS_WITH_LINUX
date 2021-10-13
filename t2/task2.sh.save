@@ -1,0 +1,8 @@
+#!/bin/bash
+var1=0
+var2=0
+varans=0
+echo "Enter the first number: "
+read var1
+echo "Enter the second number: "
+expr (($var1*$var2))

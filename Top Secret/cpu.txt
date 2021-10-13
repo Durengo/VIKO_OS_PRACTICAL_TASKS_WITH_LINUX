@@ -1,0 +1,13 @@
+[    0.000000] ACPI: SSDT 0x00000000CAC2CCF8 000102 (v01 AMICPU PROC     00000001 MSFT 03000001)
+[    0.000000] smpboot: Allowing 4 CPUs, 0 hotplug CPUs
+[    0.000000] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:4 nr_cpu_ids:4 nr_node_ids:1
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=4.
+[    0.004099] mce: CPU0: Thermal monitoring enabled (TM1)
+[    0.004119] MDS: Mitigation: Clear CPU buffers
+[    0.006090] smpboot: CPU0: Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz (family: 0x6, model: 0x2a, stepping: 0x7)
+[    0.007014] smp: Bringing up secondary CPUs ...
+[    0.007098] .... node  #0, CPUs:      #1 #2
+[    0.010368] MDS CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html for more details.
+[    0.012056] smp: Brought up 1 node, 4 CPUs
+[    1.128528] ledtrig-cpu: registered to indicate activity on CPUs

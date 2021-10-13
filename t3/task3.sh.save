@@ -1,0 +1,19 @@
+#!/bin/bash
+echo "Select:"
+echo "(1) Check which file has more lines."
+echo "(2) Check which directory has more files."
+read m
+if [ $m = 1 ]
+then
+	echo "We will be checking which file has more lines"
+	echo "Enter the location of first file:"
+	read l1
+	cd $l1
+	
+ls $l1
+	echo "Enter the location of the second file:"
+	read l2
+elif [ $m = 2 ]
+then
+	echo "wow"
+fi
